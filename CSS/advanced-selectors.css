@@ -1,0 +1,41 @@
+p{
+
+
+
+
+} 
+
+
+#id{
+
+
+
+
+} 
+
+
+.class{
+
+}
+
+
+
+li a {
+	background: yellow;
+}
+ h3 + ul{
+ 	color: red;
+ }
+a[ href="htttps://masters-of-code.com/"] {
+	 background: green;
+}               
+
+ ul:nth-of-type(3){
+ 	background: blue;
+  color: white;
+
+ }   p:nth-of-type(4){
+ 	background: blue;
+  color: white;
+
+ }  
