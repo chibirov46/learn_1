@@ -1,89 +1,66 @@
 <<!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>forms</title>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>forms</title>
+  </head>
+  <body>
 
-<form action="http://google.com">
-	<label for="first name">
-          <p>first name:</p>
-   </label>
-  
-  
-   <input required id="first name" placeholder="enter your name" name="username" type="text">
+    <form action="http://google.com">
+      <label for="first name">
+        <p>first name:</p>
+      </label>
 
-   
+      <input required id="first name" placeholder="enter your name"
+        name="username" type="text">
 
+      <label> <p> last name :<input placeholder="enter your last name "
+            name="last name"></p></label>
 
-<label> <p> last name :<input placeholder ="enter your last name " name="last name"></p></label>
+      <p>
+        <label for="email">Email</label>
+        <input required id="email" placeholder="enter your email " name="email" type="email">
+      </p>
 
-<p>   
-<label for="email">
-    Email
+      <label>
+        <p> password :
+          <input placeholder="enter your password " name="userpassword" type='password'>
+        </p>
+      </label>
 
-   </label>
+      <label for="password">Type password:</label>
+      <input type="password" id="password" value="" placeholder="Напиши пароль сука сюда">
 
-  
-     <input required id="email" placeholder ="enter your email " name="email" type="email"></p>
+      <label> <p>stay logget in :<input type="checkbox"
+            name="logget"></p></label>
 
+      <label> <p> male :<input type="radio" name="sex" value="male"></p></label>
+      
+      
 
+      <label> <p> female :<input type="radio" name="sex"
+            value="female"></p></label>
 
-        <label> <p> password :<input placeholder="enter your password " name ="userpassword"type=
-        'password'></p></label>
+      <label> <p>Choose your favorite color :<input type="color"
+            name="color"></p></label>
 
+      <p>Choose your favourite animal </p>
 
+      <p>
+        <select name="animal">
 
+          <option>cat</option>
 
+          <option>Snoopdog</option>
 
-      <label> <p>stay logget in  :<input type="checkbox"name="logget"></p></label>
+          <option>rat</option>
 
+        </select>
+      </p>
 
+      <label> <p>submit data :<input type="submit" value="нажми" p></label>
 
-       <label> <p> male :<input type="radio"name="sex"value="male"></p></label>
-
-
-       <label> <p> female :<input type="radio"name="sex"value="female"></p></label>
-
-
-      <label> <p>Choose your favorite color :<input type="color"name="color"></p></label>
-
-           <p>Choose your favourite animal </p>
-
-             <p>
-            <select name="animal">
-            
-
-            <option>cat</option>
-               
-             <option>Snoopdog</option>
-            
-             <option>rat</option>
-
-
-            </select>
-            </p>
-
-             <label> <p>submit data :<input type="submit"value="нажми"p></label>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </form>
-</body>
-</html>
+      </form>
+    </body>
+  </html>
